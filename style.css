@@ -1,7 +1,13 @@
-img {
-    display:block;
+#img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     max-width:100%;
     height:auto;
+  }
+
+  figcaption {
+    font-size: x-small;
   }
   
   html {
@@ -16,5 +22,9 @@ img {
   text-align: center;
   color: #333;
   }
-  
-  
+
+
+  table {
+    position: absolute;
+    top: 50%;
+  }
